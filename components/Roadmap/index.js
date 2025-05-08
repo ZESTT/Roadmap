@@ -1,10 +1,16 @@
 import React from "react";
 import Styles from "./Roadmap.module.css";
+
 export default function index() {
   return (
-    <div className={Styles["dev-roadmap-cont"]}>
-      <div className={Styles["dev-roadmap-left"]}>
-        <div className={Styles["dev-roadmap-mint"]}>
+    
+    <div className={Styles["dev-roadmap-cont"]} id="jc">
+<a href="#jamy">       <button className={Styles["button"]}>Back-End Node</button>
+</a>
+<a href="#jd">       <button className={Styles["button"]}>Back-End PHP</button>
+</a>
+      <div className={Styles["dev-roadmap-left"]} >
+        <div className={Styles["dev-roadmap-mint"]} >
           
           <h4 className={Styles["dev-roadmap-mint-title"]}>1- First  Step HTML ♡</h4>
           <ul className={Styles["dev-roadmap-list"]}>
@@ -12,10 +18,9 @@ export default function index() {
             <li>Semantic HTML🤝</li>
             <li>Forms and Validations ⚡️ </li>
              <li> Accessibility ⚡️ </li>
-        
-            
 
           </ul>
+
         </div>
         <div className={Styles["dev-roadmap-mint "]}>
           <h4 className={Styles["dev-roadmap-mint-title"]}> 2- SECOND Step CSS 🥳</h4>
@@ -67,7 +72,7 @@ export default function index() {
 
               <li>CSS Architecture              </li>
               <br/>
-              <li>CBox Model             </li>
+              <li>CSS Box Model             </li>
               <br/><li>CSS - Styling Lists             </li>
               <br/><li>CCSS - visibility            </li>
               <br/><li>CSS - Grid Layout              </li>
@@ -80,7 +85,7 @@ export default function index() {
               <br/><li>CSS - Pseudo Classes             </li>
               <br/><li>CSS - Pseudo Elements</li>
               <br/><li>CSS - Text Effects              </li>
-              <br/><li>CCSS - Validations            </li>
+              <br/><li>CSS - Validations            </li>
               <br/><li>CSS - Math Functions             </li>
               <br/><li>CSS - mask Property             </li>
               <br/><li>CSS RWD Frameworks            </li>
@@ -95,17 +100,36 @@ export default function index() {
             <li>CSS - Box Sizing          </li>
             <br/>
 
+
+
+        {/* <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+<br/>
+<br/>
+<h1 >
+🧑‍💻 محتوي <br/>
+الباك اند 
+
+      </h1>
+<h4 className={Styles["dev-roadmap-mint-title"]}>Back-End NODE JS ♡</h4> */}
           </ul>
         </div>
       </div>
+
+
+      
+
+
+
+      
       <div className={Styles["dev-roadmap-right"]}>
         <div className={Styles["dev-roadmap-mint"]}>
           <h4 className={Styles["dev-roadmap-mint-title"]}> 3- FrameWorks  Css♡</h4>
           <ul className={Styles["dev-roadmap-list"]}>
-            <li>Tailwind CSS </li>
+            <li>Tailwind CSS (ON REACT JS) </li>
             <br/>
 
-            <li>BootStrap 5</li>
+            <li>BootStrap 5 (AFTER CSS)</li>
           </ul>
         </div>
         <div className={Styles["dev-roadmap-mint"]}>
@@ -227,7 +251,8 @@ export default function index() {
 
 <li> ES6+
 </li>
-<br/>
+
+<h4 className={Styles["dev-roadmap-mint-title"]}>5- React JS ♡</h4>
 
 <li color="red"> React Content❤️‍🔥↓
 </li>
@@ -283,9 +308,286 @@ export default function index() {
 
 <li> Error Boundaries
 </li>
+{/* <br/><br/><br/><br/><br/><br/><br/><br/><br/> 
+<br/>
+<br/>
+<br/>
+<h1 >
+        🧑‍💻 محتوي الباك اند 
+
+      </h1>
+<h4 className={Styles["dev-roadmap-mint-title"]}>Back-End NODE JS ♡</h4>
+<li> Error Boundaries
+</li> */}
+
+          </ul>
+       
+         
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+      <div className={Styles["dev-roadmap-leftt"]}>
+        <div className={Styles["dev-roadmap-mint"]}>
+
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+
+        <h1 className={Styles["ji"]} id="jamy">
+⏝⏜     محتوي الباك اند
+<br/>
+<br/>
+ Back-End BY Node JS <br/> 👇🏻
+
+
+ 
+
+
+
+      </h1>
+          <h4 className={Styles["dev-roadmap-mint-title"]}>1- Js Refresh  ♡</h4>
+          <ul className={Styles["dev-roadmap-list"]}>
+            <li> JS Basics 🤔</li>
+            <li>        JavaScript refresh     <br/>
+
+            </li>
+            <li>Node js Basic ⚡️ </li>
+        
+            
+
+          </ul>
+        </div>
+        <div className={Styles["dev-roadmap-mint "]}>
+   
+          <h4 className={Styles["dev-roadmap-mint-title"]}> 2-
+            Express & MongoDB  🥳</h4>
+          <ul className={Styles["dev-roadmap-list"]}>
+            <li>Routers & Moduls            </li>
+            <br/>
+            <li> MIDDLEWARE ⚡️ </li>
+            <br/>
+
+            <li> MVC</li>
+                        <br/>
+
+            <li>
+            Express JS
+              </li> 
+              <br/>
+
+              <li>
+              Social media login using (G-mail)
+              </li>
+              <br/>
+
+              <li>
+              CRON jobs &
+              Create
+              </li>
+              <br/>
+
+              <li>
+              Templating engines (EJS)
+              </li>
+              <br/>
+
+              <li>
+              Node with MySQL
+              </li>
+              <br/>
+
+              <li>
+              ORM Sequelize
+              </li>
+              <br/>
+
+              <li>
+              MongoDB
+              </li>
+              <br/>
+
+              <li>ODM mongoose</li>
+              <br/>
+
+              <li>Validation (JOI)              </li>
+              <br/>
+              <li>Authentication             </li>
+              <br/><li>Pagination             </li>
+              <br/><li>Authorization            </li>
+              <br/><li>Async Requests
+              </li>
+              <br/><li>Rest API             </li>
+              <br/><li>Sending email (G-mail & outlook)
+              </li>
+              <br/><li>Relation two ways using (mongoose) </li>
+              <br/><li>File Uploads               </li>
+              <br/><li>Socket . IO             </li>
+              <br/><li>GraphQL             </li>
+              <br/><li>Introduction to Redis DB (Cashing)             </li>
+              <br/><li>Intro to Docker</li>
+              <br/><li className={Styles["j"]}>End Of Content Of Node js 👋</li>
+
+              <br/>
+              <br/>
+              <br/>
+              <br/>
+              <h1 className={Styles["l"]}>⏜OR ⏝</h1>
+              <br/>
+              <br/>
+              <br/>
+              <br/>
+              
+              <h1 className={Styles["ji"]} id="jd">
+              Back-End BY PHP & Larvel  
+              👇🏻
+
+
+
+</h1>
+
+              <br/>
+          
+              <br/>
+              <h4 className={Styles["dev-roadmap-mint-title"] } id="jh">1- PHP CONTENT  ♡</h4>
+
+            <br/><li> 1-Backend intro           </li>
+              <br/><li>Php files
+              </li>
+              <br/><li>Php intro </li>
+              <br/><li>Variables              </li>
+              <br/><li>SPHP Data Type            </li>
+              <br/><li>Conditions (if, switch ,match)            </li>
+              <br/><li>Array (Numeric –assosiative -
+                multidimitional)            </li>
+              <br/><li>Loops
+              (for, while, Do while, foreach)            </li>
+              <br/><li>Functions            </li>
+              <br/><li>Built in methods            </li>
+              <br/><li>Pass by value , pass by refance            </li>
+              <br/><li>Requests(GET ,POST)            </li>
+              <br/><li>Form validations            </li>
+              <br/><li>File uploads            </li>
+              <br/><li>File Validation            </li>
+              <br/><li>Session ·Cookies            </li>
+              <br/><li>Consttants            </li>
+              <br/><li>Consttants            </li>
+
+
+
+
+              <br/>
+          
+          <br/>
+          <h4 className={Styles["dev-roadmap-mint-title"]}>2- MYSQL  ♡</h4>
+
+        <br/><li> 1-Database intro            </li>
+          <br/><li>ERD entitY
+          </li>
+          <br/><li> Relationships</li>
+          <br/><li>Case study (erd ,relationship)              </li>
+          <br/><li>create database
+          </li>
+          <br/><li>Create tables          </li>
+          <br/><li>Crud operations          </li>
+          <br/><li>Aggregattion functions
+                     </li>
+          <br/><li>Grouping            </li>
+          <br/><li>Operations            </li>
+          <br/><li>·Orders , limit ,offset           </li>
+          <br/><li>Subquires           </li>
+          <br/><li>Joins            </li>
+          <br/><li>Pivote table ·Alter table            </li>
+          <br/><li>Index ·View
+          </li>
+          <br/><li>Shell ,workbench ,cmd            </li>
+          <br/><li>·Events API            </li>
+          <br/><li> Connecting to php with mysql            </li>
+          <br/><li> Authentication              </li>
+          <br/><li>    Authorization         </li>
+          <br/><li> Pagination            </li>
+          
+          <br/> <br/> <br/> 
+          <h4 className={Styles["dev-roadmap-mint-title"]}> PHP OOP  </h4>
+          <h4 className={Styles["dev-roadmap-mint-title"]}>Laravel  </h4>
+          <h4 className={Styles["dev-roadmap-mint-title"]}>Laravel mvc structure  </h4>
+          <h4 className={Styles["dev-roadmap-mint-title"]}>Routing  </h4>
+          <h4 className={Styles["dev-roadmap-mint-title"]}>Controller  </h4>
+          <h4 className={Styles["dev-roadmap-mint-title"]}>models  </h4>
+          <h4 className={Styles["dev-roadmap-mint-title"]}>Query builder  </h4>
+          <h4 className={Styles["dev-roadmap-mint-title"]}>CRUD Operations  </h4>
+          <h4 className={Styles["dev-roadmap-mint-title"]}>Laravel Validation  </h4>
+          <h4 className={Styles["dev-roadmap-mint-title"]}>  Session </h4>
+          <h4 className={Styles["dev-roadmap-mint-title"]}> Assets  </h4>
+          <h4 className={Styles["dev-roadmap-mint-title"]}> ·Seeders – factories – tinker  </h4>
+          <h4 className={Styles["dev-roadmap-mint-title"]}> Authantication  </h4>
+          <h4 className={Styles["dev-roadmap-mint-title"]}> Authorization  </h4>
+          <h4 className={Styles["dev-roadmap-mint-title"]}> Middleware  </h4>
+          <h4 className={Styles["dev-roadmap-mint-title"]}>API Resources   </h4>
+          <h4 className={Styles["dev-roadmap-mint-title"]}> API Authantication  </h4>
+          <h4 className={Styles["dev-roadmap-mint-title"]}>Email Verification
+          </h4>   <h4 className={Styles["dev-roadmap-mint-title"]}> Pusher
+          </h4>   <h4 className={Styles["dev-roadmap-mint-title"]}> Agile
+          </h4>   <h4 className={Styles["dev-roadmap-mint-title"]}> Swagge
+          </h4>   
+          <br/><h1 className={Styles["o"]}>End Of Content Of PHP  
+            </h1>
+
+            <br/><h1 className={Styles["o"]}>🤩 
+            </h1>
+            
+ 
+  <br></br>
+  <a href="#jc">       <button className={Styles["button"]}>Back To Top </button>
+  </a>
+
+  <a href="">       <button className={Styles["button"]}>احجز مكانكnp </button>
+  </a>
+  <br></br>
+  <br></br>
+  <br></br>
+  <br></br>
+  <br></br>
+  <br></br>
+  <br></br>
+
+
+<a className={Styles["o"]} href="">Eng - Ahmed Gamal🧑‍💻</a>
+<h4 className={Styles["o"]}>palestine
+  🇰🇼♡</h4>  
+
+ 
+        {/* <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+<br/>
+<br/>
+<h1 >
+🧑‍💻 محتوي <br/>
+الباك اند 
+
+      </h1>
+<h4 className={Styles["dev-roadmap-mint-title"]}>Back-End NODE JS ♡</h4> */}
           </ul>
         </div>
       </div>
+
+
+      
     </div>
+
   );
+  
 }

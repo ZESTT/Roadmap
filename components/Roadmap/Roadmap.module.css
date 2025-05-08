@@ -1,14 +1,63 @@
 .dev-roadmap-cont {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   width: 70%;
   min-width: 350px;
   margin: 50px auto;
   justify-content: space-between;
 }
 
+.jam{
+  color: #ececec;
+}
+.j{
+  border-bottom: #9300e9 10px solid;
+  padding: 5px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.ji{
+  border-top: #ffd503 10px solid;
+  border-right: #4907f1 10px solid;
+  border-left: #ff03c8 10px solid;
+  border-bottom: #ff5f03 10px solid;
+  border-radius: 30px;
+  color: #fff;
+
+
+  margin: 8px;
+  padding: 9px;
+  text-align: center;
+  font-weight: 900;
+  font-size: 25px;
+}
+
+.button{
+  border: none;
+  margin: 9px;
+  border-radius: 50px;
+  width: 150px;
+  text-align: center;
+  margin-left: 100px;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff;
+}
+.l{
+  text-align: center;
+  font-size: 60px;
+  font-weight: 800;
+  border-right: #4907f1 solid 10px;
+  border-left: #ff03c8 solid 10px;
+}
+.o{
+  text-align: center;
+ 
+font-size: 30px;
+}
 .dev-roadmap-left {
-  border-image: linear-gradient(270deg, gold 0%, #17161b 30%) 1;
+  border-image: linear-gradient( rgb(104, 16, 198) 0%, #17161b 30%) 1;
   border-top: 2px solid;
   width: 100%;
   padding: 20px;
@@ -17,7 +66,7 @@
 }
 
 .dev-roadmap-right {
-  border-image: linear-gradient(90deg, gold 0%, #17161b 30%) 1;
+  border-image: linear-gradient( gold 0%, #17161b 30%) 1;
   border-top: 2px solid;
   width: 100%;
   padding: 20px;
@@ -25,7 +74,7 @@
 }
 
 .dev-roadmap-mint-title {
-  color: gold;
+  color: white;
   text-transform: uppercase;
   font-size: 30px;
   line-height: 40px;
