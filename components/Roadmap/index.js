@@ -554,7 +554,8 @@ export default function index() {
   <a href="#jc">       <button className={Styles["button"]}>Back To Top </button>
   </a>
 
-  <a href="">       <button className={Styles["button"]}>احجز مكانكnp </button>
+  <a href="">       <button className={Styles["button"]}>احجز مكانكnpgit commit -m "Debug: Reinstall dependencies and commit fresh yarn.lock and node_modules"
+ </button>
   </a>
   <br></br>
   <br></br>
